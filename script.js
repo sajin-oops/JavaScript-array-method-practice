@@ -25,7 +25,7 @@ newones = [5,8,10,7,9,11]
 console.log(newones.splice(6,1,0+1000))
 console.log(newones)
 //output - [5, 8, 10, 7, 9, 11, 1000]
-
+// Insert 0 in the middle. use arr.length to find middle
 console.log(newones.length) 
 newones.splice(4,0,0)
 console.log(newones)
